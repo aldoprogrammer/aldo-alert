@@ -52,5 +52,5 @@ export default YourComponent;
 [Demo Aldo Alert](https://demo-aldo-alert.vercel.app/)
 
 ## Github Repo Example Using This Alert
-[React Vite Repo Usage Example]([https://demo-aldo-alert.vercel.app/](https://github.com/aldoprogrammer/demo-aldo-alert))
+[React Vite Repo Usage Example](https://github.com/aldoprogrammer/demo-aldo-alert)
 
