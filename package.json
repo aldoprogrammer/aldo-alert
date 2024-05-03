@@ -1,8 +1,8 @@
 {
   "name": "aldo-alert",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "cool alert and fully responsive",
-  "main": "index.js",
+  "main": "AldoAlertProvider.jsx",
   "scripts": {
     "test": "npm run test"
   },
