@@ -1,6 +1,6 @@
 {
   "name": "aldo-alert",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cool alert and fully responsive",
   "main": "AldoAlertProvider.jsx",
   "scripts": {

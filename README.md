@@ -1,6 +1,5 @@
 # Aldo Alert
 
-**Version:** 1.0.3  
 **Description:** A cool and fully responsive alert component for React.
 
 ## Installation
