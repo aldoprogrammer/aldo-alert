@@ -21,7 +21,22 @@
     position: relative;
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
+    width: 230px; /* Default width */
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
 }
+
+@media (min-width: 768px) { /* Medium-sized screens */
+    .toast {
+        width: 260px; /* Width for medium-sized screens */
+    }
+}
+
+/* Other styles remain unchanged */
+
 
 .toast-container-visible .toast {
     opacity: 1;
