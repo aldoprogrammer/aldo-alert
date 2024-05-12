@@ -5,6 +5,8 @@
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
     transition-delay: 0.3s; /* Delay the transition */
+    z-index: 1000; /* Set z-index to a high value */
+
 }
 
 .toast-container-visible {
@@ -27,6 +29,8 @@
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    z-index: 1001; /* Set z-index to appear above toast-container */
+
 }
 
 @media (min-width: 768px) { /* Medium-sized screens */
