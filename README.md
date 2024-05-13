@@ -15,17 +15,21 @@ Integration with React + Vite
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client'; 
 import App from './App.jsx';
-import './index.css'
+import './index.css';
+
 import { AldoAlertProvider } from 'aldo-alert';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+// Use createRoot from react-dom/client
+createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <AldoAlertProvider>
       <App />
     </AldoAlertProvider>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
+
 ```
 
 ## Displaying Toast Messages
